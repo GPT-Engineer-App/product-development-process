@@ -1,10 +1,11 @@
 import React from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
+import { Link } from "react-router-dom";
 
 const methods = {
   Discover: ["User Research", "Market Analysis", "Stakeholder Interviews"],
-  Define: ["Affinity Mapping", "Personas", "Journey Mapping"],
+  Define: ["Affinity Mapping", <Link to="/personas">Personas</Link>, "Journey Mapping"],
   Develop: ["Prototyping", "Usability Testing", "Iteration"],
   Deliver: ["Launch Planning", "Marketing Strategy", "Feedback Collection"],
 };
