@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const methods = {
   Discover: ["User Research", "Market Analysis", "Stakeholder Interviews"],
-  Define: ["Affinity Mapping", <Link to="/personas">Personas</Link>, "Journey Mapping"],
+  Define: ["Affinity Mapping", <Link to="/personas" className="hover:text-blue-500">Personas</Link>, "Journey Mapping"],
   Develop: ["Prototyping", "Usability Testing", "Iteration"],
   Deliver: ["Launch Planning", "Marketing Strategy", "Feedback Collection"],
 };
@@ -23,8 +23,8 @@ const DoubleDiamond = () => {
             </CardHeader>
             <CardContent>
               <ul className="list-disc list-inside">
-                {methods[phase].map((method) => (
-                  <li key={method}>{method}</li>
+                {methods[phase].map((method, index) => (
+                  <li key={index} className="hover:text-blue-500">{method}</li>
                 ))}
               </ul>
             </CardContent>

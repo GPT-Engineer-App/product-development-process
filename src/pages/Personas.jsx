@@ -8,7 +8,7 @@ const Personas = () => {
   return (
     <div className="container mx-auto p-4">
       <Link to="/double-diamond">
-        <Button variant="outline" className="mb-4">Back</Button>
+        <Button variant="outline" className="mb-4 hover:text-blue-500">Back</Button>
       </Link>
       <h1 className="text-4xl font-bold text-center mb-8">Personas Method</h1>
       <Separator className="my-8" />
