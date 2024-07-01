@@ -12,7 +12,7 @@ const Index = () => {
         </p>
         <div className="flex justify-center">
           <Link to="/double-diamond">
-            <Button variant="outline">View Double Diamond Process</Button>
+            <Button variant="outline" className="hover:text-blue-500">View Double Diamond Process</Button>
           </Link>
         </div>
       </div>
