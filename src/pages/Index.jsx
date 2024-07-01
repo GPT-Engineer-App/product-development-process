@@ -15,11 +15,6 @@ const Index = () => {
             <Button variant="outline">View Double Diamond Process</Button>
           </Link>
         </div>
-        <div className="flex justify-center mt-4">
-          <Link to="/personas">
-            <Button variant="outline">Personas</Button>
-          </Link>
-        </div>
       </div>
     </div>
   );

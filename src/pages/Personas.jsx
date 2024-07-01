@@ -1,10 +1,15 @@
 import React from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
+import { Link } from "react-router-dom";
+import { Button } from "@/components/ui/button";
 
 const Personas = () => {
   return (
     <div className="container mx-auto p-4">
+      <Link to="/double-diamond">
+        <Button variant="outline" className="mb-4">Back</Button>
+      </Link>
       <h1 className="text-4xl font-bold text-center mb-8">Personas Method</h1>
       <Separator className="my-8" />
       <Card>
